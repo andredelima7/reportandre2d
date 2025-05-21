@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <button class="back-button">←</button>
+      <h1>Reporte</h1>
+    </header>
+
+    <p class="descricao">
+      Aqui você pode relatar<br>
+      problemas no app ou sugestões.
+    </p>
+
+    <div class="botoes-reporte">
+      <button class="botao-opcao">Funcionalidade<br><span>Erro de operação em uma função.</span></button>
+      <button class="botao-opcao">Desempenho<br><span>Problemas relacionados ao design e à interação do usuário.</span></button>
+      <button class="botao-opcao">Interface<br><span>Falhas que afetam a velocidade e a eficiência do aplicativo.</span></button>
+      <button class="botao-opcao">Segurança<br><span>Vulnerabilidade na integridade de informações pessoais.</span></button>
+    </div>
+
+    <div class="outros-box">
+      <label for="outros">Outros:</label>
+      <input type="text" id="outros" placeholder="">
+    </div>
+
+    <button class="botao-enviar" onclick="enviarRelatorio()">Enviar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+</html>
