@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #505050;
+  background-color: #535151;
   display: flex;
   align-items: center;
   padding: 15px;
@@ -117,5 +117,5 @@ header h1 {
 }
 
 .botao-enviar:hover {
-  background-color: #d3d3d3; /* cinza claro */
+  background-color: #444343; /* cinza claro */
 }
